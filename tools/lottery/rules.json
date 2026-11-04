@@ -1,0 +1,214 @@
+{
+  "fetched_at": "2026-11-03 10:33:58",
+  "sources": [
+    {
+      "name": "浙江体彩·大乐透规则全文",
+      "url": "https://www.zjtycp.cn/guize_cjdlt/",
+      "http": 200,
+      "bytes": 532203,
+      "sha256": "18b1a1d8f129c317",
+      "fetched_at": "2026-11-03 10:33:59",
+      "decoded_as": "utf-8",
+      "saved": "raw\\zjtycp-guize-20261103.html",
+      "text_chars": 3839,
+      "parsed": {
+        "front_min": 1,
+        "front_max": 35,
+        "front_count": 5,
+        "back_min": 1,
+        "back_max": 12,
+        "back_count": 2,
+        "draw_days_text": "一、三、六",
+        "draw_days": [
+          "一",
+          "三",
+          "六"
+        ],
+        "sale_close": null,
+        "draw_time": null,
+        "price_basic": 2,
+        "price_addon": 1,
+        "price_total_add": 3,
+        "prize_levels_found": [
+          "一等奖",
+          "二等奖",
+          "三等奖",
+          "四等奖",
+          "五等奖",
+          "六等奖",
+          "七等奖"
+        ]
+      }
+    },
+    {
+      "name": "河南体彩·开奖与停售时间调整公告",
+      "url": "https://hnlottery.com.cn/2023/02-22/13561.html",
+      "http": 200,
+      "bytes": 12995,
+      "sha256": "c76bb1540ee3bd57",
+      "fetched_at": "2026-11-03 10:34:00",
+      "decoded_as": "utf-8",
+      "saved": "raw\\hnlottery-time-20261103.html",
+      "text_chars": 1708,
+      "parsed": {
+        "sale_close": "21:00",
+        "draw_time": "21:25",
+        "prize_levels_found": []
+      }
+    },
+    {
+      "name": "中国体彩网·旧版规则（历史参考）",
+      "url": "https://www.sporttery.cn/help/2858.html?gid=1",
+      "http": 200,
+      "bytes": 82439,
+      "sha256": "6b657c91cbfac44b",
+      "fetched_at": "2026-11-03 10:34:02",
+      "decoded_as": "gb18030",
+      "saved": "raw\\sporttery-help-2858-20261103.html",
+      "text_chars": 3946,
+      "parsed": {
+        "front_min": 1,
+        "front_max": 12,
+        "back_min": 1,
+        "back_max": 12,
+        "draw_days_text": "一、三、六",
+        "draw_days": [
+          "一",
+          "三",
+          "六"
+        ],
+        "sale_close": null,
+        "draw_time": null,
+        "price_basic": 2,
+        "price_addon": 1,
+        "price_total_add": 3,
+        "prize_levels_found": [
+          "一等奖",
+          "二等奖",
+          "三等奖",
+          "四等奖",
+          "五等奖",
+          "六等奖",
+          "七等奖"
+        ]
+      }
+    }
+  ],
+  "parsed": {
+    "front_min": 1,
+    "front_max": 35,
+    "front_count": 5,
+    "back_min": 1,
+    "back_max": 12,
+    "back_count": 2,
+    "draw_days_text": "一、三、六",
+    "draw_days": [
+      "一",
+      "三",
+      "六"
+    ],
+    "price_basic": 2,
+    "price_addon": 1,
+    "price_total_add": 3,
+    "prize_levels_found": [
+      "一等奖",
+      "二等奖",
+      "三等奖",
+      "四等奖",
+      "五等奖",
+      "六等奖",
+      "七等奖"
+    ],
+    "sale_close": "21:00",
+    "draw_time": "21:25"
+  },
+  "checks": [
+    {
+      "field": "前区范围",
+      "expected": "1-35",
+      "crawled": "1-35",
+      "status": "ok"
+    },
+    {
+      "field": "后区范围",
+      "expected": "1-12",
+      "crawled": "1-12",
+      "status": "ok"
+    },
+    {
+      "field": "前区个数",
+      "expected": 5,
+      "crawled": 5,
+      "status": "ok"
+    },
+    {
+      "field": "后区个数",
+      "expected": 2,
+      "crawled": 2,
+      "status": "ok"
+    },
+    {
+      "field": "开奖日",
+      "expected": "周一/三/六",
+      "crawled": [
+        "一",
+        "三",
+        "六"
+      ],
+      "status": "ok"
+    },
+    {
+      "field": "停售时间",
+      "expected": "21:00",
+      "crawled": "21:00",
+      "status": "ok"
+    },
+    {
+      "field": "开奖时间",
+      "expected": "21:25",
+      "crawled": "21:25",
+      "status": "ok"
+    },
+    {
+      "field": "基本投注价",
+      "expected": 2,
+      "crawled": 2,
+      "status": "ok"
+    },
+    {
+      "field": "追加加价",
+      "expected": 1,
+      "crawled": 1,
+      "status": "ok"
+    },
+    {
+      "field": "追加总价",
+      "expected": 3,
+      "crawled": 3,
+      "status": "ok"
+    },
+    {
+      "field": "奖级",
+      "expected": [
+        "一等奖",
+        "二等奖",
+        "三等奖",
+        "四等奖",
+        "五等奖",
+        "六等奖",
+        "七等奖"
+      ],
+      "crawled": [
+        "一等奖",
+        "二等奖",
+        "三等奖",
+        "四等奖",
+        "五等奖",
+        "六等奖",
+        "七等奖"
+      ],
+      "status": "ok"
+    }
+  ],
+  "verdict": "consistent"
+}

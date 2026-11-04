@@ -1,0 +1,83 @@
+{
+  "fetched_at": "2026-11-03 10:31:59",
+  "sources": [
+    {
+      "name": "彩票术语与常见指标说明",
+      "url": "https://blog.dktoolset.com/posts/lottery/lottery-terms-explained.html",
+      "text_chars": 3020,
+      "methods_found": 10
+    }
+  ],
+  "methods": [
+    {
+      "name": "和值",
+      "definition": "所有开奖号码相加之和；一注号码中全部开奖号码相加得到的总和。；例如双色球红球开出 03 07 12 18 25 30，和值 = 3+7+12+18+25+30 = 95。；和值分布通常呈近似钟形，中枢区间出现最频繁，极高或极低的和值概率很低。分析时常以和值区间作为筛选条件，避开过于极端的组合。",
+      "predictive": false,
+      "note": "历史统计指标。大乐透每期独立等概率，对下期没有预测力；用它选号只改变号码形状，不改变中奖概率。",
+      "source": "https://blog.dktoolset.com/posts/lottery/lottery-terms-explained.html"
+    },
+    {
+      "name": "AC值",
+      "definition": "号码之间差值的离散程度（复杂度）；衡量一注号码\"复杂度/离散程度\"的指标，反映号码彼此间差值的丰富度。；把号码两两做差，取所有不同的正差值个数，再减去（号码个数 − 1）。差值越丰富，AC值越大，说明号码越\"分散不规律\"。；AC值太小说明号码过于集中（如接近等差、扎堆），太大则高度分散。多数人用它排除\"看起来太规整\"的组合。",
+      "predictive": false,
+      "note": "历史统计指标。大乐透每期独立等概率，对下期没有预测力；用它选号只改变号码形状，不改变中奖概率。",
+      "source": "https://blog.dktoolset.com/posts/lottery/lottery-terms-explained.html"
+    },
+    {
+      "name": "跨度",
+      "definition": "最大号码与最小号码之差；一注号码里最大号码与最小号码之差。；号码 03 07 12 18 25 30，跨度 = 30 − 3 = 27。福彩3D/排列3的跨度则是三位数字的极差，范围 0-9。；跨度小说明号码集中在窄区间，跨度大说明覆盖广。跨度同样呈中部偏多的分布，可作筛选维度。",
+      "predictive": false,
+      "note": "历史统计指标。大乐透每期独立等概率，对下期没有预测力；用它选号只改变号码形状，不改变中奖概率。",
+      "source": "https://blog.dktoolset.com/posts/lottery/lottery-terms-explained.html"
+    },
+    {
+      "name": "遗漏",
+      "definition": "某号码距上次开出的间隔期数；某个号码距离上一次开出所间隔的期数，也叫\"遗漏期数\"。；若某号码最近一次开出是 5 期之前，则当前遗漏值为 5。常配套统计\"最大遗漏\"\"平均遗漏\"。；遗漏值远超其历史平均时，称该号\"欠出\"。但要牢记——",
+      "predictive": false,
+      "note": "历史统计指标。大乐透每期独立等概率，对下期没有预测力；用它选号只改变号码形状，不改变中奖概率。",
+      "source": "https://blog.dktoolset.com/posts/lottery/lottery-terms-explained.html"
+    },
+    {
+      "name": "冷热号",
+      "definition": "按近期出现频率对号码分层；按号码在近 N 期（如近 30 期）的出现次数，把号码分为三层。；用于观察号码活跃度、构造冷热搭配。但冷热只是历史统计结果，不是对未来的承诺。",
+      "predictive": false,
+      "note": "历史统计指标。大乐透每期独立等概率，对下期没有预测力；用它选号只改变号码形状，不改变中奖概率。",
+      "source": "https://blog.dktoolset.com/posts/lottery/lottery-terms-explained.html"
+    },
+    {
+      "name": "奇偶比",
+      "definition": "奇数与偶数个数的比例；一注号码中奇数个数与偶数个数的比例。；红球 03 07 12 18 25 30 中，奇数是 3、7、25（3个），偶数是 12、18、30（3个），奇偶比为 3:3。；极端奇偶比（如全奇 6:0）出现概率低，多数人偏向平衡的奇偶结构作为筛选参考。",
+      "predictive": false,
+      "note": "历史统计指标。大乐透每期独立等概率，对下期没有预测力；用它选号只改变号码形状，不改变中奖概率。",
+      "source": "https://blog.dktoolset.com/posts/lottery/lottery-terms-explained.html"
+    },
+    {
+      "name": "大小比",
+      "definition": "大号与小号个数的比例；一注号码中大号与小号个数的比例。大小的分界因彩种而定（如双色球红球以 17 为界，1-16 小、17-33 大）。；按分界线数出大号、小号个数即可，如 4:2 表示 4 个大号、2 个小号。；与奇偶比类似，用于衡量号码在数值高低上的平衡度，避免过度偏向一侧。",
+      "predictive": false,
+      "note": "历史统计指标。大乐透每期独立等概率，对下期没有预测力；用它选号只改变号码形状，不改变中奖概率。",
+      "source": "https://blog.dktoolset.com/posts/lottery/lottery-terms-explained.html"
+    },
+    {
+      "name": "区间",
+      "definition": "号码在各号段的落点个数；把号码池均匀切成几个号段，统计每段落入几个号码。；双色球红球常分三区（1-11、12-22、23-33），若开出号码在三区各有 2 个，则区间分布为 2:2:2。；观察号码是否过度集中在某一段，均衡分布通常更接近随机开奖的常态形态。",
+      "predictive": false,
+      "note": "历史统计指标。大乐透每期独立等概率，对下期没有预测力；用它选号只改变号码形状，不改变中奖概率。",
+      "source": "https://blog.dktoolset.com/posts/lottery/lottery-terms-explained.html"
+    },
+    {
+      "name": "连号",
+      "definition": "相邻的连续号码；一注号码中相邻连续的号码，如 07、08 就是一组连号。；统计一注中是否含连号、含几组连号。连号在历史开奖中并不罕见，是否纳入取决于个人筛选偏好。",
+      "predictive": false,
+      "note": "历史统计指标。大乐透每期独立等概率，对下期没有预测力；用它选号只改变号码形状，不改变中奖概率。",
+      "source": "https://blog.dktoolset.com/posts/lottery/lottery-terms-explained.html"
+    },
+    {
+      "name": "012路",
+      "definition": "号码对 3 取余后的分类；把每个号码对 3 取余，按余数分成三类：；统计一注号码里 0/1/2 路各有几个，得到\"012路比\"（如 2:2:2）。；这是数字彩常用的模运算分层，用于观察号码在模 3 上的均衡度。",
+      "predictive": false,
+      "note": "历史统计指标。大乐透每期独立等概率，对下期没有预测力；用它选号只改变号码形状，不改变中奖概率。",
+      "source": "https://blog.dktoolset.com/posts/lottery/lottery-terms-explained.html"
+    }
+  ]
+}

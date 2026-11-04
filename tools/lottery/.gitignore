@@ -1,0 +1,6 @@
+lottery.sqlite
+*.log
+__pycache__/
+raw/
+*.sqlite-shm
+*.sqlite-wal

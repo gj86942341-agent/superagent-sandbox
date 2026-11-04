@@ -37,7 +37,9 @@ import urllib.request
 from datetime import date, datetime, timedelta
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(BASE, "lottery.sqlite")
+# The database may live outside the checkout (a scheduled task keeps the history in one
+# place while the code comes from the repository). LOTTERY_DB overrides the default.
+DB_PATH = os.environ.get("LOTTERY_DB") or os.path.join(BASE, "lottery.sqlite")
 API = ("https://webapi.sporttery.cn/gateway/lottery/getHistoryPageListV1.qry"
        "?gameNo=85&provinceId=0&pageSize=100&isVerify=1&pageNo={page}")
 # 官方接口反爬：必须同时带 Referer 与浏览器型 User-Agent，缺一返回 HTTP 567。
